@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beacon Academy|Courses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel=stylesheet href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href=https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap rel=stylesheet>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body id="course">
+    <header class="header">
+        <div class="navbar"> </div>
+        <div class="main-text">
+            <h1>Our Courses</h1>
+        </div>
+    </header>
+    <div class="slidercontainer">
+        <div class="showSlide slide"> 
+            <img src="./img/engineering.jpg"> 
+            <div class="content">
+                <h2>Engineering</h2>
+                <p>The School of Engineering and Applied Science is unique in combining the strengths of a world-leading research institution with the qualities of an outstanding liberal arts college. In both its teaching and research, Beacon engineering pursues fundamental knowledge as well as multidisciplinary collaborations that make technology effective in solving complex societal problems. The school is committed to preparing all students — engineers as well as students from across the University — to become leaders in a technology-driven society.</p>
+            </div>
+        </div>
+        <div class="showSlide slide"> 
+            <img src="./img/socialsciences.jpg"> 
+            <div class="content">
+                <h2>Social Sciences</h2>
+                <p>Whether improving national security, exploring issues of poverty, explaining human behavior or taking a critical look at international trade, research in the social sciences at Beacon strives to advance of knowledge of human society and address some of the largest societal problems of the 21st century.</p>
+            </div>
+        </div>
+        <div class="showSlide slide"> 
+            <img src="./img/humanities.jpg"> 
+            <div class="content">
+                <h2>Humanities</h2>
+                <p>Scholarship in the humanities forms and deepens us as individuals and as contributors to society. At a time when technology offers dazzling new possibilities and cultures collide in ways both exciting and dangerous, the arts and humanities provide crucial insight into what matters in life, into the character of civilization, and into the capacity — and the limits — of people’s ability to understand societies different from their own.</p>
+            </div>
+        </div>
+        <div class="showSlide slide"> 
+            <img src="./img/naturalsciences.jpg"> 
+            <div class="content">
+                <h2>Natural Sciences</h2>
+                <p>From campus laboratories to biodiversity research in the Kenyan savannah to Antarctic edge-of-space balloon launches (seen at left), Beacon’s students and scholars are involved in inquiries across the scientific spectrum.</p>
+            </div>
+        </div> 
+        <a class="left" onclick="nextSlide(-1, 'left')">❮</a> 
+        <a class="right" onclick="nextSlide(1, 'right')">❯</a> 
+    </div>
+    <table class="courses-table">
+        <tr>
+            <th>Course</th>
+            <th>Degree</th>
+        </tr>
+        <tr>
+            <td>Computer Science Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Electrical Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Mechanical Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Chemical Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Civil Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Information Science Engineering</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Biotechnology</td>
+            <td>B.Tech, B.E, M.tech</td>
+        </tr>
+        <tr>
+            <td>Physics Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Chemistry Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>History Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Economic Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>English Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Economics Hons.</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Psychology</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Sociology</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Applied Mathematics</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+        <tr>
+            <td>Life Science</td>
+            <td>B.Sc, Masters, Ph.D</td>
+        </tr>
+    </table>
+    <div class="info-text">For more information regarding courses kindly, email us at info@beaconacademy.com</div>
+    <footer id="footer"></footer>
+    <script src="script.js"></script>
+</body>
+</html>

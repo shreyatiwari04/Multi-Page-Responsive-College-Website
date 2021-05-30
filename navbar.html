@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel=stylesheet href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href=https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;display=swap rel=stylesheet>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body> 
+	<a href="index.html" class="logo"><i class="fas fa-graduation-cap"></i>BEACON ACADEMY</a> 
+	<i class="fas fa-bars" onclick="openNav()"></i>
+    <nav class="nav-list"> 
+    	<i class="fa fa-times" onclick="closeNav()"></i> 
+    	<a href="index.html">HOME</a> 
+    	<a href="about.html">ABOUT</a> 
+    	<a href="courses.html">COURSES</a> 
+    	<a href="admission.html">ADMISSION</a> 
+    	<a href="contact.html">CONTACT</a> 
+    </nav>
+    <script>
+	    var x = document.querySelector(".nav-list"),
+	    close = document.querySelector(".fa-times"),
+	    burger = document.querySelector(".fa-bars");
+
+	    function openNav() {
+	        close.style.display = "block";
+	        burger.style.display = "none";
+	        x.style.width = "250px";
+	    }
+
+	    function closeNav() {
+	        close.style.display = "none";
+	        burger.style.display = "block";
+	        x.style.width = "0";
+	    }
+    </script>
+</body>
+</html>
