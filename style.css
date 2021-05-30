@@ -559,6 +559,11 @@ iframe {
     .sliderContainer { height: 350px }
 }
 
+@media only screen and (max-width:800px) {
+
+    .facilities-container { justify-content: center; }
+}
+
 @media only screen and (max-width:770px) {
     .navbar {
         padding-left: .5em;
