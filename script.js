@@ -7,11 +7,13 @@ if (document.querySelector("#course")) {
     var slide_index = 1;
     displaySlides(slide_index);
 
-    function nextSlide(n, param)
-        displaySlides(slide_index += n, param);  
-
-    function currentSlide(n)
+    function nextSlide(n, param) {
+        displaySlides(slide_index += n, param);
+    }	    
+		    
+    function currentSlide(n) {
         displaySlides(slide_index += n);
+    }	    
 
     function displaySlides(n, param) {
         var i,
