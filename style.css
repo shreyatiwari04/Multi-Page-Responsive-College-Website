@@ -632,7 +632,7 @@ iframe {
 @media only screen and (max-width:500px) {
     .gallery { column-count: 2}
     
-    .main-text {
+    #home .main-text {
     	text-align: left;
     	align-items: flex-start;
     	margin-left: 20px;
